@@ -1,24 +1,26 @@
 #include <Arduino.h>
 
-// #define TRIG 11
-// #define ECHO 9
-// #define LED 2
+// #define MOTOR
+// #define TRIG
+// #define ECHO
+// #define LED
 
 // long duration;
 // float distance;
 
 void setup() {
-  // put your setup code here, to run once:
   // pinMode(TRIG, OUTPUT);
   // pinMode(ECHO, INPUT);
 
   // pinMode(LED, OUTPUT);
 
+  // pinMode(MOTOR, OUTPUT);
+
   // Serial.begin(9600);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+
   // digitalWrite(TRIG, LOW);
   // delayMicroseconds(2);
 
@@ -28,7 +30,7 @@ void loop() {
 
   // duration = pulseIn(ECHO, HIGH);
 
-  // distance = duration * 0.034 /2;
+  // distance = duration * 0.034 / 2;
 
   // Serial.print("Distance: ");
   // Serial.print(distance);
@@ -36,9 +38,14 @@ void loop() {
 
   // if (distance < 15) {
   //   digitalWrite(LED, HIGH);
-  //   delay(300);
   // } else {
   //   digitalWrite(LED, LOW);
+  // }
+
+  // if (distance > 15 && distance < 30) {
+  //   digitalWrite(MOTOR, HIGH);
+  // } else {
+  //   digitalWrite(MOTOR, LOW);
   // }
 
   // delay(300);
